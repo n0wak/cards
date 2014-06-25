@@ -25,6 +25,36 @@
       
       <section id="hand">
 
+      </section>
+      
+      <script type="text/html" id="card_template">
+         <div class="card in-hand active">             
+             <div class="front">
+                 <header style="text-align:center">♧♡</header>  
+                 <%=id%>                                     
+             </div>
+             <div class="back"></div>             
+         </div>                     
+      </script>
+
+      <!--
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+          <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    -->
+      <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+      <script>document.write('<script src="javascripts/vendor/jquery-ui.min.js"><\/script>')</script>
+
+      <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
+
+      <script src="javascripts/main.js"></script>
+
+      <!-- <script src="javascripts/plugins.js"></script> -->
+      <script src="javascripts/main.js"></script>
+  </body>
+</html>
+
+
+
           <!--
           <div class="card in-hand active ">
               
@@ -57,33 +87,3 @@
               </div>
           </div>
               -->
-      </section>
-      
-      <script type="text/html" id="card_template">
-         <div class="card in-hand active">             
-             <div class="front">
-                 <header style="text-align:center">♧♡</header>                      
-                 
-             </div>
-             <div class="back">
-             </div>
-             
-         </div> 
-          
-          
-      </script>
-
-      <!--
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-          <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    -->
-      <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-      <script>document.write('<script src="javascripts/vendor/jquery-ui.min.js"><\/script>')</script>
-
-      <script src="http://twitter.github.com/hogan.js/builds/2.0.0/hogan-2.0.0.js"></script>
-
-
-      <!-- <script src="javascripts/plugins.js"></script> -->
-      <script src="javascripts/main.js"></script>
-  </body>
-</html>

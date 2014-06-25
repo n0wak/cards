@@ -54,11 +54,28 @@ var deck = [
 ];
 
 
+/**
+*
+*
+*
+*
+*
+*
+*/
+
+
+//console.log ("OK");
+//console.log ();
+
+
+function addCard() {
+    
+    $("#hand").append(tmpl("card_template", {"id": "the id"}));
+}
 
 
 
-
-
+addCard();
 
 
 $( ".card.active" ).on("click",
